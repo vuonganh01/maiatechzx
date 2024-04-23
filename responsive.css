@@ -1,3 +1,14 @@
+/* Very large */
+@media (min-width: 1600px) {
+    .container-fix {
+        
+    }
+
+    .bg-top_img {
+        height: 93%;
+    }
+}
+
 /* PC */
 @media (min-width: 64em) {
     .contact-us .contact-us_bg-img-mobile {
