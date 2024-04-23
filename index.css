@@ -59,6 +59,7 @@ body {
 .navbar-expand_maia {
     justify-content: space-between;
     align-items: flex-start;
+    padding-top: 74px;
 }
 
 .navbar-brand_maia {
@@ -141,7 +142,8 @@ body {
 
 .who-we-are-div1 button {
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(0, 97, 176, 1);
+    background: linear-gradient(89.93deg, #0061B0 0.05%, #016DC6 47.39%, #048BFA 99.93%);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
     width: 195.98px;
     height: 49.16px;
     font-size: 16px;
@@ -203,8 +205,17 @@ body {
     transform: translateY(-50%);
 }
 
+.technology_item_dot-img_line_second1 {
+    position: absolute;
+    right: 0;
+    left: unset;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.technology_item_dot-img_line_second11,
 .technology_item_dot-img_line_4 {
-    display: none;
+    width: 100px;
 }
 
 .group-dot-and-img .technology_item_dot-img_line_last {
@@ -311,6 +322,14 @@ body {
     width: 26%;
 }
 
+.development-list_div-big .development-list_div-big-img-diagonal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
 .development-list_div-small_content p,
 .development-list_div-big_content p {
     font-size: 70%;
@@ -324,6 +343,10 @@ body {
     margin-bottom: 0;
     margin-top: 8%;
 }
+
+.development-list .development-list_div-big {
+
+} 
 
 .advise {
     background: linear-gradient(90.31deg, #0061B0 1.13%, #016DC6 51.5%, #048BFA 99.82%);
@@ -388,6 +411,10 @@ body {
 /* <!-- Meet our team------------------------ --> */
 .team {
     margin-top: 10%;
+}
+
+.team_list {
+    align-items: center;
 }
 
 .team_list_item {
@@ -543,14 +570,14 @@ body {
 }
 
 .contact-us_text button {
-    background: linear-gradient(0deg, #0061B0, #0061B0),
-linear-gradient(89.93deg, #0061B0 0.05%, #016DC6 47.39%, #048BFA 99.93%);
+    background: linear-gradient(89.93deg, #0061B0 0.05%, #016DC6 47.39%, #048BFA 99.93%);
     width: 195.98px;
     height: 49.16px;
     margin-top: 60px;
     border: none;
     border-radius: 3px;
     color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
 

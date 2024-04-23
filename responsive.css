@@ -18,6 +18,7 @@
     .group-dot-and-img .technology_item_dot-img_line_mobile {
         display: none;
     }
+
 }
 
 /* Tablet & Mobile */
@@ -201,6 +202,11 @@
     .copyright {
         margin-top: 20%;
     }
+
+    /* meet our team */
+    
+    
+    /* end meet our team */
 }
 
 /* Tablet */
