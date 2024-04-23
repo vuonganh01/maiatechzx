@@ -1,0 +1,48 @@
+.intro {
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 14% 8% 14% 8%;
+    margin-top: 100px;
+    border-radius: 6px;
+    margin-bottom: -140px;
+}
+
+.intro .intro_img {
+    text-align: center;
+    width: auto;
+}
+
+.intro span {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+}
+
+.intro .intro_company-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.intro .intro_title-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.intro p {
+    text-align: left;
+    font-size: 18px;
+}
+
+.intro_group-logo-and-social-media {
+    margin-top: 60px;
+}
+
+.intro_group-social-media {
+    margin-top: 20px;
+}
+
+.intro_group-social-media img:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 20px;
+}
