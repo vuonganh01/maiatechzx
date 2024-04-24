@@ -19,6 +19,10 @@
         display: none;
     }
 
+    .team_list {
+        justify-content: space-between;
+    }
+
 }
 
 /* Tablet & Mobile */
@@ -205,7 +209,10 @@
 
     /* meet our team */
     
-    
+    .team_list {
+        flex-direction: column;
+    }
+
     /* end meet our team */
 }
 
