@@ -1,3 +1,10 @@
+/* Very large */
+@media (min-width: 1600px) {
+    .bg-top_img {
+        min-height: 1710px;
+    }
+}
+
 /* PC */
 @media (min-width: 64em) {
     

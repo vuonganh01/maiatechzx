@@ -1,3 +1,11 @@
+/* Very large */
+@media (min-width: 1600px) {
+    .bg-top_img {
+        min-height: 1710px;
+    }
+}
+
+
 /* PC */
 @media (min-width: 64em) {
     
@@ -5,6 +13,15 @@
 
 /* Tablet & Mobile */
 @media (max-width: 63.9375em) {
+
+    .form-message_div-outside_half-square {
+        display: none;
+    }
+
+    .form-message_div-outside_circle {
+        display: none;
+    }
+
     .form-message_div-outside {
         align-items: center;
     }

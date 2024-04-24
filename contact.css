@@ -1,8 +1,44 @@
+.body {
+    position: relative;
+}
+
+.contac-background-img_posison {
+    position: relative;
+}
+
+.contac-background-img_posison2 {
+    position: absolute;
+    left: 300px;
+    top: 240%;
+}
+
+.contac-background-img_posison2_line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-message_div-outside_half-square {
+    position: absolute;
+    top: 350px;
+    left: 0;
+}
+
+.form-message_div-outside_circle {
+    position: absolute;
+    top: 350px;
+    left: 20%;
+}
+
+
+
 .form-message_div-outside {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
     margin-bottom: -160px;
+    position: relative;
 }
 
 .form-message_div-outside > * {
@@ -45,8 +81,7 @@
 }
 
 .form-message button {
-    background: linear-gradient(0deg, #0061B0, #0061B0),
-    linear-gradient(89.93deg, #0061B0 0.05%, #016DC6 47.39%, #048BFA 99.93%);
+    background: linear-gradient(89.93deg, #0061B0 0.05%, #016DC6 47.39%, #048BFA 99.93%);
     box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
@@ -54,6 +89,8 @@
     width: 170px;
     height: 44px;
     border: none;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 
 .form-message_div-outside .message-for-maiatech {
