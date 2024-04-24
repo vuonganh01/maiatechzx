@@ -221,6 +221,10 @@
         margin-top: 20%;
     }
 
+    .development-list_half-square_div_right {
+        display: none;
+    }
+
     /* meet our team */
     
     .team_list {
@@ -233,6 +237,10 @@
     }
 
     /* end meet our team */
+
+    .div_img-under-meet-our-team {
+        display: none;
+    }
 }
 
 /* Tablet */
