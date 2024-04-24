@@ -434,6 +434,7 @@ body {
     position: absolute;
     top: 0;
     right: 58%;
+    z-index: -1;
 }
 
 .sofware-dev p {
