@@ -86,6 +86,10 @@
         text-align: center;
     }
 
+    .technology_item_dot-img-blue_line {
+        display: none;
+    }
+
     .our-service_div2 img {
         width: 100%;
     }
@@ -109,6 +113,12 @@
 
     .application-dev img {
         width: 100%;
+    }
+
+    .application-dev .application-dev_posison {
+        width: 10%;
+        left: 0;
+        bottom: 90%;
     }
     
     .application-dev p {
@@ -150,6 +160,10 @@
     .sofware-dev {
         flex-direction: column;
         justify-content: flex-end;
+    }
+
+    .sofware-dev_img-posison {
+        display: none;
     }
 
     .sofware-dev p {
@@ -211,6 +225,11 @@
     
     .team_list {
         flex-direction: column;
+    }
+
+    .team_list_item_div-outside2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     /* end meet our team */
