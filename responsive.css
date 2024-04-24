@@ -225,4 +225,8 @@
     .bg-top_square-img {
         max-width: 25%;
     }
+
+    .navbar-expand_maia {
+        padding-top: 10px;
+    }
 }
