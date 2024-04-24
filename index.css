@@ -13,7 +13,7 @@ body {
 .bg-top_img-line {
     position: absolute;
     left: 0;
-    top: 20%;
+    top: 400px;
 }
 
 .bg-top_img-line-right {
@@ -25,8 +25,8 @@ body {
 
 .bg-top_img-square_full-space {
     position: absolute;
-    left: 13%;
-    top: 33%;
+    left: 250px;
+    top: 598px;
 }
 
 .bg-top_img-small-circle {

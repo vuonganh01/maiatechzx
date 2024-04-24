@@ -33,6 +33,10 @@
     .form-message {
         width: 100%;
     }
+
+    .contac-background-img_posison2 {
+        display: none;
+    }
 }
 
 /* Tablet */
